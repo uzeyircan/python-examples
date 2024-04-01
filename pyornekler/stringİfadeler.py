@@ -1,0 +1,17 @@
+message = "Hello There. My name is Can"
+
+# message = message.upper()
+# message = message.lower()
+# message = message.title()
+# message = message.capitalize()
+# message = message.strip()
+# message = message.split()
+# message = "-".join(message)
+# index = message.find("Can")
+# isFound = message.startswith("H")
+# isFound = message.endswith("n")
+# print(isFound)
+# message = message.replace("Can", "Üzeyir")
+# message = message.replace("ç", "c").replace("ö", "o").replace(" ", "-")
+message = message.center(50, "*")
+print(message)
